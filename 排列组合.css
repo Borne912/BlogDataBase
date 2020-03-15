@@ -1,5 +1,8 @@
 .wrapper::after{
-  content: "";
+ 	content: "";
 	clear: both;/*clear属性只能用于块级元素*/
 	display: block;
+}
+.wrapper{
+	height:100px;
 }
